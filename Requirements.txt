@@ -1,6 +1,0 @@
-flask
-nltk
-numpy
-keras
-tensorflow
-gunicorn
