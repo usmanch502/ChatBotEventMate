@@ -7,7 +7,7 @@ from keras.models import load_model
 import json
 import random
 from flask_cors import CORS
-nltk.data.path.append('nltk_data')
+nltk.data.path.append('./nltk_data')
 app = Flask(__name__)
 CORS(app)  # Enable CORS for Flutter
 
