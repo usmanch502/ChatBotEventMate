@@ -7,7 +7,8 @@ from keras.models import load_model
 import json
 import random
 from flask_cors import CORS
-
+nltk.download('punkt_tab')
+nltk.download('wordnet')
 app = Flask(__name__)
 CORS(app)  # Enable CORS for Flutter
 
